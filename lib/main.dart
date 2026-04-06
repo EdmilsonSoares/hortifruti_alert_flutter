@@ -264,7 +264,7 @@ class _TelaInicialState extends State<TelaInicial> {
                       },
 
                       child: Card(
-                        color: Colors.white.withOpacity(0.9),
+                        color: Colors.white.withValues(alpha: 0.9),
                         margin: const EdgeInsets.symmetric(
                           horizontal: 12,
                           vertical: 6,
